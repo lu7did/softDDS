@@ -1,17 +1,16 @@
 # softDDS
+
 Soft DDS using a rp2040 processor
 
 ### Dual clock 
 
 In this setup the clock is produced simultaneously from GPIO13 and GPIO14, both signals
-are identical, both in receiving or transmitting mode. It's intended to make the circuit
+are identical. This configuration is intended to make the circuit
 simpler. Actual operation of the board will require other signals such as RXSW and TXA
-to properly operate to be controlled by the firmware. This clock also uses a derivative
-of the VCO done by Roman (R2BDT) modified to replicate the output of the PIO on pins
-GPIO13 and GPIO14 simultaneously.
+to properly operate to be controlled by the firmware.
 
 
-### Dual clock + IF
+### Dual clock
 
 Then the board operates with a superheterodyne receptor configuration the receiver process
 requires two clocks, the main one to operate the down-converter mixer from the HF frequency
@@ -23,14 +22,7 @@ The intermediate frequency clock (RFIF) is a special clock, it's lower in freque
 therefore it's easier to implement on a processor with limited resources. Also it's a 
 fixed frequency as it doesn't vary with the operation.
 
-Unfortunately attempts to extend the VCO concept to simultaneously create a different
-clock at a different frequency prooved to be beyond the limits of the processor; the VCO
-uses for itself a whole core (*core1*) in **blocking mode** so no other task can be interleaved
-without causing jitter, spurious outputs or frequency drift or all three together. At the same
-time the other core (*core0*) it's actually devoted to provide all the other tasks of the
-board such as USB Audio, USB CDC (serial), board management, signaling, timers, etc.
-
-A different approach is then intended. the rp2040 processor has several specialized processors
+The rp2040 processor has several specialized processors
 called PIO (Programmable Input/Output) which are a limited memory, limited instruction set (RISC)
 processors but completely independent from the main processor. Each processor executes their 
 program as part of a *state machine* (SM) which dictates which instruction is executed
@@ -119,6 +111,4 @@ The waveform obtained at GPIO15 is as follows for a nominal $f_{BFO}=446400 \tex
 The outputs at GPIO13 and GPIO14 would be a clock at the operating frequency whilst the output
 at GPIO15 (when option **#define SUPERHET 1** is set) would be a fixed clock of the established
 frequency (normally in the 450 KHz range) as shown in the following picture.
-
-![Alt Text](doc/ADX-ddsPIO_BFO2.png?raw=true "ADX-ddsPIO BFO")  
 
