@@ -18,10 +18,6 @@ to an intermediate frequency and other as the intermediate frequency oscillator 
 
 The down-converter local oscillator (RFLO) can be either one of the clocks despicted above.
 
-The intermediate frequency clock (RFIF) is a special clock, it's lower in frequency and 
-therefore it's easier to implement on a processor with limited resources. Also it's a 
-fixed frequency as it doesn't vary with the operation.
-
 The rp2040 processor has several specialized processors
 called PIO (Programmable Input/Output) which are a limited memory, limited instruction set (RISC)
 processors but completely independent from the main processor. Each processor executes their 
@@ -104,11 +100,5 @@ of error needs to be considered such as
 
 However, the level of error obtained is a good compromise between performance, cost and simplicity.
 
-The waveform obtained at GPIO15 is as follows for a nominal $f_{BFO}=446400 \text{Hz}$
-
-![Alt Text](doc/ADX-ddsPIO_BFO.png?raw=true "ADX-ddsPIO BFO")  
-
-The outputs at GPIO13 and GPIO14 would be a clock at the operating frequency whilst the output
-at GPIO15 (when option **#define SUPERHET 1** is set) would be a fixed clock of the established
-frequency (normally in the 450 KHz range) as shown in the following picture.
+The outputs at GPIO13 and GPIO14 would be a clock at the operating frequency.
 
