@@ -1,0 +1,18 @@
+# Hashes of file build rules.
+2709ad0ed555b98532070223d0ac8615 CMakeFiles/quad_osc-jlink
+3db3fb195b31f314d52106ac3287d8c4 CMakeFiles/quad_osc-openocd
+ae62a2edf27131410aec689c7908ece5 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin
+a063605e0e3d70969ca2e51b973f131a pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+eb423547ea9c60b70092c38e6ce6dec0 pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
+f9cec53da6a82e8ff5fe6a4929240443 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+f9cec53da6a82e8ff5fe6a4929240443 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild
+f15e304e0b78ff94ad1db45b40ce75c8 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete
+305b5e9a8379663f4225bace517b68f0 pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+d544eef37bc45b4f32899ab14ae9b929 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build
+aeb314b2c7006c903319d961f1c313ed pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure
+c07790bb44c4822129d77a7b61b6c62d pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download
+447118e5761467204b3cc0a3eb186612 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install
+165577bd372cef46ead99ef362d9f96b pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir
+20d654b4d1cab9e96390a8e51d9e8a0d pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch
+98fe8d53392e1da27c1f52999e7ac111 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update
+09408bed8b5e4ab0b57a877367515e50 quad.pio.h

@@ -1,16 +1,15 @@
 
 
 //*----------------------------------------------------------------------------
-//* quadra
+//*quad
 //*----------------------------------------------------------------------------
-//* Testbed for the ADX DDS PIO-based digital quadrature frequency synth (I/Q
-//* using Raspberry Pi Pico.
-//* This is a working module of an integration effort to build an FT8 
-//* transceiver using Raspberry Pi Pico as the main controller and signal
-//* generator.
+//* This  module uses the rp2040 board as a signal generator (softDDS).
 //* This is a design and development from scratch
 //* 
 //* Copyright (c) 2025 by Pedro Colla (LU7DZ)
+//* All rights reserved.
+//* Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+//* (CC BY-NC-SA 4.0) https://creativecommons.org/licenses/by-nc-sa/4.0/ 
 //*----------------------------------------------------------------------------
 #include "pico/stdlib.h"
 #include "hardware/clocks.h"

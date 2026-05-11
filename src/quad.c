@@ -111,7 +111,7 @@ static bool find_optimal(uint32_t f_req_hz, quad_solution_t *best_out) {
 
   for (uint8_t refdiv = 1; refdiv <= 16; refdiv++) {
 
-    const uint32_t xosc_hz = 12000000u;   // cristal real de Pico
+    const uint32_t xosc_hz = 12000000u;   // real rp2040 crystal clock
     uint32_t f_ref = xosc_hz / refdiv;
 
     if (!f_ref) continue;
@@ -153,7 +153,8 @@ static bool find_optimal(uint32_t f_req_hz, quad_solution_t *best_out) {
 }
 //*---------------------------------------------------------------------------------------*
 //*  this is the function to change the PLL, it has to make it in a safe way to avoid the * 
-//*  board to hand-up. First changes the clock to a different one in order to avoid having*
+//*  board to hand-up. 
+//*  First changes the clock to a different one in order to avoid hanging
 //*  the board with no clock during the transition, then changes PLL_SYS and switch the   *
 //*  board back to use this clock (now in a safe way)                                     *
 //*---------------------------------------------------------------------------------------*
@@ -211,7 +212,7 @@ bool quad_init(quad_osc_t *q, PIO pio, uint sm)
   
   pio_sm_config c = quad_program_get_default_config(q->offset);
   sm_config_set_set_pins(&c, QUAD_I_PIN, 2);
-
+  //sm_config_set_set_pins(&c, QUAD_I_PIN, 1);
   //*--- Init GPIO output functions
 
   pio_gpio_init(pio, QUAD_I_PIN);
@@ -220,6 +221,7 @@ bool quad_init(quad_osc_t *q, PIO pio, uint sm)
   //*--- Define two consecutive pins as output
   
   pio_sm_set_consecutive_pindirs(pio, sm, QUAD_I_PIN, 2, true);
+  //pio_sm_set_consecutive_pindirs(pio, sm, QUAD_I_PIN, 1, true);
 
   //*--- Reset the SM (but do not start as yet)
   

@@ -1,0 +1,5 @@
+halt
+loadfile /Users/PCOLLA/Documents/GitHub/softDDS/src/build/quad_osc.elf
+r
+go
+exit

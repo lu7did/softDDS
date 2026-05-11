@@ -1,0 +1,7 @@
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/pioasm/CMakeFiles/pioasm.dir
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/pioasm/CMakeFiles/rebuild_cache.dir
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/pioasm/CMakeFiles/list_install_components.dir
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/pioasm/CMakeFiles/install.dir
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/pioasm/CMakeFiles/install/local.dir
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/pioasm/CMakeFiles/install/strip.dir
