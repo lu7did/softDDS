@@ -12,4 +12,5 @@
     set pins, 0b00
     set pins, 0b11
     set pins, 0b11
+
 .wrap

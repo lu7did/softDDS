@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/PCOLLA/Documents/GitHub/softDDS/src/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/quad_osc.dir/all
+all: CMakeFiles/softDDS.dir/all
 all: pico-sdk/all
 .PHONY : all
 
@@ -72,9 +72,9 @@ preinstall: pico-sdk/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/quad_osc.dir/clean
-clean: CMakeFiles/quad_osc-openocd.dir/clean
-clean: CMakeFiles/quad_osc-jlink.dir/clean
+clean: CMakeFiles/softDDS.dir/clean
+clean: CMakeFiles/softDDS-openocd.dir/clean
+clean: CMakeFiles/softDDS-jlink.dir/clean
 clean: pico-sdk/clean
 .PHONY : clean
 
@@ -1776,83 +1776,83 @@ pico-sdk/tools/clean:
 .PHONY : pico-sdk/tools/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/quad_osc.dir
+# Target rules for target CMakeFiles/softDDS.dir
 
 # All Build rule for target.
-CMakeFiles/quad_osc.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
-CMakeFiles/quad_osc.dir/all: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target quad_osc"
-.PHONY : CMakeFiles/quad_osc.dir/all
+CMakeFiles/softDDS.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
+CMakeFiles/softDDS.dir/all: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target softDDS"
+.PHONY : CMakeFiles/softDDS.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/quad_osc.dir/rule: cmake_check_build_system
+CMakeFiles/softDDS.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles 98
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quad_osc.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/softDDS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles 0
-.PHONY : CMakeFiles/quad_osc.dir/rule
+.PHONY : CMakeFiles/softDDS.dir/rule
 
 # Convenience name for target.
-quad_osc: CMakeFiles/quad_osc.dir/rule
-.PHONY : quad_osc
+softDDS: CMakeFiles/softDDS.dir/rule
+.PHONY : softDDS
 
 # clean rule for target.
-CMakeFiles/quad_osc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/clean
-.PHONY : CMakeFiles/quad_osc.dir/clean
+CMakeFiles/softDDS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/clean
+.PHONY : CMakeFiles/softDDS.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/quad_osc-openocd.dir
+# Target rules for target CMakeFiles/softDDS-openocd.dir
 
 # All Build rule for target.
-CMakeFiles/quad_osc-openocd.dir/all: CMakeFiles/quad_osc.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc-openocd.dir/build.make CMakeFiles/quad_osc-openocd.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc-openocd.dir/build.make CMakeFiles/quad_osc-openocd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles --progress-num= "Built target quad_osc-openocd"
-.PHONY : CMakeFiles/quad_osc-openocd.dir/all
+CMakeFiles/softDDS-openocd.dir/all: CMakeFiles/softDDS.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS-openocd.dir/build.make CMakeFiles/softDDS-openocd.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS-openocd.dir/build.make CMakeFiles/softDDS-openocd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles --progress-num= "Built target softDDS-openocd"
+.PHONY : CMakeFiles/softDDS-openocd.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/quad_osc-openocd.dir/rule: cmake_check_build_system
+CMakeFiles/softDDS-openocd.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles 98
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quad_osc-openocd.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/softDDS-openocd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles 0
-.PHONY : CMakeFiles/quad_osc-openocd.dir/rule
+.PHONY : CMakeFiles/softDDS-openocd.dir/rule
 
 # Convenience name for target.
-quad_osc-openocd: CMakeFiles/quad_osc-openocd.dir/rule
-.PHONY : quad_osc-openocd
+softDDS-openocd: CMakeFiles/softDDS-openocd.dir/rule
+.PHONY : softDDS-openocd
 
 # clean rule for target.
-CMakeFiles/quad_osc-openocd.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc-openocd.dir/build.make CMakeFiles/quad_osc-openocd.dir/clean
-.PHONY : CMakeFiles/quad_osc-openocd.dir/clean
+CMakeFiles/softDDS-openocd.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS-openocd.dir/build.make CMakeFiles/softDDS-openocd.dir/clean
+.PHONY : CMakeFiles/softDDS-openocd.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/quad_osc-jlink.dir
+# Target rules for target CMakeFiles/softDDS-jlink.dir
 
 # All Build rule for target.
-CMakeFiles/quad_osc-jlink.dir/all: CMakeFiles/quad_osc.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc-jlink.dir/build.make CMakeFiles/quad_osc-jlink.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc-jlink.dir/build.make CMakeFiles/quad_osc-jlink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles --progress-num= "Built target quad_osc-jlink"
-.PHONY : CMakeFiles/quad_osc-jlink.dir/all
+CMakeFiles/softDDS-jlink.dir/all: CMakeFiles/softDDS.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS-jlink.dir/build.make CMakeFiles/softDDS-jlink.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS-jlink.dir/build.make CMakeFiles/softDDS-jlink.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles --progress-num= "Built target softDDS-jlink"
+.PHONY : CMakeFiles/softDDS-jlink.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/quad_osc-jlink.dir/rule: cmake_check_build_system
+CMakeFiles/softDDS-jlink.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles 98
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quad_osc-jlink.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/softDDS-jlink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles 0
-.PHONY : CMakeFiles/quad_osc-jlink.dir/rule
+.PHONY : CMakeFiles/softDDS-jlink.dir/rule
 
 # Convenience name for target.
-quad_osc-jlink: CMakeFiles/quad_osc-jlink.dir/rule
-.PHONY : quad_osc-jlink
+softDDS-jlink: CMakeFiles/softDDS-jlink.dir/rule
+.PHONY : softDDS-jlink
 
 # clean rule for target.
-CMakeFiles/quad_osc-jlink.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc-jlink.dir/build.make CMakeFiles/quad_osc-jlink.dir/clean
-.PHONY : CMakeFiles/quad_osc-jlink.dir/clean
+CMakeFiles/softDDS-jlink.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS-jlink.dir/build.make CMakeFiles/softDDS-jlink.dir/clean
+.PHONY : CMakeFiles/softDDS-jlink.dir/clean
 
 #=============================================================================
 # Target rules for target pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir

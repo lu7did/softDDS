@@ -1,6 +1,6 @@
-/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles/quad_osc.dir
-/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles/quad_osc-openocd.dir
-/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles/quad_osc-jlink.dir
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles/softDDS.dir
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles/softDDS-openocd.dir
+/Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles/softDDS-jlink.dir
 /Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles/edit_cache.dir
 /Users/PCOLLA/Documents/GitHub/softDDS/src/build/CMakeFiles/rebuild_cache.dir
 /Users/PCOLLA/Documents/GitHub/softDDS/src/build/pico-sdk/CMakeFiles/edit_cache.dir

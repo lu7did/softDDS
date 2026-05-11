@@ -1,6 +1,6 @@
 # Hashes of file build rules.
-2709ad0ed555b98532070223d0ac8615 CMakeFiles/quad_osc-jlink
-3db3fb195b31f314d52106ac3287d8c4 CMakeFiles/quad_osc-openocd
+fc57882363b61bd978830670ba58ccf1 CMakeFiles/softDDS-jlink
+c787c60382c5dfa0e2760023c8365f2a CMakeFiles/softDDS-openocd
 ae62a2edf27131410aec689c7908ece5 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin
 a063605e0e3d70969ca2e51b973f131a pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 eb423547ea9c60b70092c38e6ce6dec0 pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S

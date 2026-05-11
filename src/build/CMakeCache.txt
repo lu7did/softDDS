@@ -172,7 +172,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=quad_osc
+CMAKE_PROJECT_NAME:STATIC=softDDS
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/arm-none-eabi-ranlib
@@ -340,13 +340,13 @@ pico_sdk_SOURCE_DIR:STATIC=/Users/PCOLLA/Documents/GitHub/pico/pico-sdk
 pioasm_DIR:PATH=pioasm_DIR-NOTFOUND
 
 //Value Computed by CMake
-quad_osc_BINARY_DIR:STATIC=/Users/PCOLLA/Documents/GitHub/softDDS/src/build
+softDDS_BINARY_DIR:STATIC=/Users/PCOLLA/Documents/GitHub/softDDS/src/build
 
 //Value Computed by CMake
-quad_osc_IS_TOP_LEVEL:STATIC=ON
+softDDS_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-quad_osc_SOURCE_DIR:STATIC=/Users/PCOLLA/Documents/GitHub/softDDS/src
+softDDS_SOURCE_DIR:STATIC=/Users/PCOLLA/Documents/GitHub/softDDS/src
 
 
 ########################

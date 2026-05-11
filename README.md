@@ -86,8 +86,8 @@ of error needs to be considered such as
 * Thermal drift.
 * Fractional divider internal jitter.
 
-This level of error might be a good compromise between performance, cost and simplicity, it might
-become too coarse for a higher frequency.
+This level of error might be a good compromise between performance, cost and simplicity at a lower
+frequency. However,  it might become too coarse for a higher frequency signal generator.
 
 ## Frequency error correction algorithm
 
@@ -116,7 +116,7 @@ Main components are
 The PIO executes a cyclic firmware with 4 states which generates the required
 signal over 2 output pins
 
-	00 → 01 → 11 11 → repeat
+	00 → 01 →  → 11 → repeat
 
 Each instruction is executed in one clock cycle of the state machine, therefore
 manipulating the clock of that PIO state machine using a fractional divider the
@@ -246,6 +246,4 @@ A typical expected result would be
 
 The output of this clock is implemented to be obtained at pins GPIO14 (I) and GPIO15 (Q).
 
-The resulting waveform is similar to the following example (for 3.5 MHz)
-![Alt Text](doc/ADX-ddsPIO_quad.png?raw=true "ADX-ddsPIO Quadrature frequency synthetizer")  
 

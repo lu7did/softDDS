@@ -1,0 +1,5 @@
+halt
+loadfile /Users/PCOLLA/Documents/GitHub/softDDS/src/build/softDDS.elf
+r
+go
+exit

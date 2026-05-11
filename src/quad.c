@@ -204,24 +204,24 @@ bool quad_init(quad_osc_t *q, PIO pio, uint sm)
   //*--- Load PIO program
   int offset = pio_add_program(pio, &quad_program);
   if (offset < 0) {
-    return false;   // no hay espacio en la PIO
+    return false;   // PIO has not available space
   }
   q->offset = (uint)offset;
 
   //*--- Set base configuration of the SM
   
   pio_sm_config c = quad_program_get_default_config(q->offset);
-  sm_config_set_set_pins(&c, QUAD_I_PIN, 2);
-  //sm_config_set_set_pins(&c, QUAD_I_PIN, 1);
-  //*--- Init GPIO output functions
 
   pio_gpio_init(pio, QUAD_I_PIN);
   pio_gpio_init(pio, QUAD_Q_PIN);
 
-  //*--- Define two consecutive pins as output
+
+  sm_config_set_set_pins(&c, QUAD_I_PIN, 1);
+  //*--- Init GPIO output functions
+
+  //*--- Define consecutive pins as needed for output
   
-  pio_sm_set_consecutive_pindirs(pio, sm, QUAD_I_PIN, 2, true);
-  //pio_sm_set_consecutive_pindirs(pio, sm, QUAD_I_PIN, 1, true);
+  pio_sm_set_consecutive_pindirs(pio, sm, QUAD_I_PIN, 1, true);
 
   //*--- Reset the SM (but do not start as yet)
   

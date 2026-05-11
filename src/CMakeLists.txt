@@ -38,7 +38,7 @@ endif()
 # ----------------------------------------------------------------------------
 include(${PICO_SDK_PATH}/lib/tinyusb/hw/bsp/family_support.cmake)
 
-project(quad_osc C CXX ASM)
+project(softDDS C CXX ASM)
 
 family_get_project_name(${PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR})
 family_initialize_project(${PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR})

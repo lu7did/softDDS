@@ -264,7 +264,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.29.5/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.5/CMakeCXXCompiler.cmake"
-  "quad_osc.jlink"
+  "softDDS.jlink"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "generated/pico_base/pico/version.h"
   "generated/pico_base/pico/config_autogen.h"
@@ -376,9 +376,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/quad_osc.dir/DependInfo.cmake"
-  "CMakeFiles/quad_osc-openocd.dir/DependInfo.cmake"
-  "CMakeFiles/quad_osc-jlink.dir/DependInfo.cmake"
+  "CMakeFiles/softDDS.dir/DependInfo.cmake"
+  "CMakeFiles/softDDS-openocd.dir/DependInfo.cmake"
+  "CMakeFiles/softDDS-jlink.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake"

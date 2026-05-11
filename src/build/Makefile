@@ -117,43 +117,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named quad_osc
+# Target rules for targets named softDDS
 
 # Build rule for target.
-quad_osc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quad_osc
-.PHONY : quad_osc
+softDDS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 softDDS
+.PHONY : softDDS
 
 # fast build rule for target.
-quad_osc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/build
-.PHONY : quad_osc/fast
+softDDS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/build
+.PHONY : softDDS/fast
 
 #=============================================================================
-# Target rules for targets named quad_osc-openocd
+# Target rules for targets named softDDS-openocd
 
 # Build rule for target.
-quad_osc-openocd: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quad_osc-openocd
-.PHONY : quad_osc-openocd
+softDDS-openocd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 softDDS-openocd
+.PHONY : softDDS-openocd
 
 # fast build rule for target.
-quad_osc-openocd/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc-openocd.dir/build.make CMakeFiles/quad_osc-openocd.dir/build
-.PHONY : quad_osc-openocd/fast
+softDDS-openocd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS-openocd.dir/build.make CMakeFiles/softDDS-openocd.dir/build
+.PHONY : softDDS-openocd/fast
 
 #=============================================================================
-# Target rules for targets named quad_osc-jlink
+# Target rules for targets named softDDS-jlink
 
 # Build rule for target.
-quad_osc-jlink: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quad_osc-jlink
-.PHONY : quad_osc-jlink
+softDDS-jlink: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 softDDS-jlink
+.PHONY : softDDS-jlink
 
 # fast build rule for target.
-quad_osc-jlink/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc-jlink.dir/build.make CMakeFiles/quad_osc-jlink.dir/build
-.PHONY : quad_osc-jlink/fast
+softDDS-jlink/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS-jlink.dir/build.make CMakeFiles/softDDS-jlink.dir/build
+.PHONY : softDDS-jlink/fast
 
 #=============================================================================
 # Target rules for targets named bs2_default
@@ -225,7 +225,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.o: Users/PCOLL
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i
@@ -233,7 +233,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.i: Users/PCOLL
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s
@@ -241,7 +241,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.s: Users/PCOLL
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
@@ -249,7 +249,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.o: Use
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -257,7 +257,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.i: Use
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -265,7 +265,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.s: Use
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
@@ -273,7 +273,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.o: Users/P
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -281,7 +281,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.i: Users/P
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -289,7 +289,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.s: Users/P
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
@@ -297,7 +297,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.o: Users/P
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -305,7 +305,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.i: Users/P
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -313,7 +313,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.s: Users/P
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
@@ -321,7 +321,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.o: User
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -329,7 +329,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.i: User
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -337,7 +337,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.s: User
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
@@ -345,7 +345,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.o: Users/P
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -353,7 +353,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.i: Users/P
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -361,7 +361,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.s: Users/P
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
@@ -369,7 +369,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.o: Users
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -377,7 +377,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.i: Users
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -385,7 +385,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.s: Users
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
@@ -393,7 +393,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.o: Users/P
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -401,7 +401,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.i: Users/P
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -409,7 +409,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.s: Users/P
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
@@ -417,7 +417,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.o: U
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -425,7 +425,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -433,7 +433,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
@@ -441,7 +441,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.o: Users/P
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -449,7 +449,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.i: Users/P
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -457,7 +457,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.s: Users/P
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
@@ -465,7 +465,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: U
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -473,7 +473,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -481,7 +481,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
@@ -489,7 +489,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.o: U
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -497,7 +497,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -505,7 +505,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
@@ -513,7 +513,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.o: Use
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i
@@ -521,7 +521,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.i: Use
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s
@@ -529,7 +529,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.s: Use
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
@@ -537,7 +537,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.o: Users/PCOLL
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -545,7 +545,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.i: Users/PCOLL
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -553,7 +553,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.s: Users/PCOLL
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
@@ -561,7 +561,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.o: Users/PCOLLA/.pi
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i
@@ -569,7 +569,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.i: Users/PCOLLA/.pi
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s
@@ -577,7 +577,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.s: Users/PCOLLA/.pi
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
@@ -585,7 +585,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.o: Users/PC
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i
@@ -593,7 +593,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.i: Users/PC
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s
@@ -601,7 +601,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.s: Users/PC
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
@@ -609,7 +609,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -617,7 +617,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -625,7 +625,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
@@ -633,7 +633,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -641,7 +641,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -649,7 +649,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.o: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
@@ -657,7 +657,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.o: Users/PCOLLA/.pico-sdk/
 
 # target to build an object file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.i: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i
@@ -665,7 +665,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.i: Users/PCOLLA/.pico-sdk/
 
 # target to preprocess a source file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i
 
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.s: Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s
@@ -673,7 +673,7 @@ Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.s: Users/PCOLLA/.pico-sdk/
 
 # target to generate assembly for a file
 Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s
 .PHONY : Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.o
@@ -681,7 +681,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.o: U
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.i
@@ -689,7 +689,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.s
@@ -697,7 +697,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
@@ -705,7 +705,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_sectio
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -713,7 +713,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_sectio
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -721,7 +721,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_sectio
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
@@ -729,7 +729,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.o: Us
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -737,7 +737,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.i: Us
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -745,7 +745,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.s: Us
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.o
@@ -753,7 +753,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.o: Users/
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -761,7 +761,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -769,7 +769,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.o
@@ -777,7 +777,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.o: Users/PC
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -785,7 +785,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.i: Users/PC
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -793,7 +793,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.s: Users/PC
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.o
@@ -801,7 +801,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.o: Users/P
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -809,7 +809,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.i: Users/P
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -817,7 +817,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.s: Users/P
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/time.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
@@ -825,7 +825,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -833,7 +833,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -841,7 +841,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.o
@@ -849,7 +849,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.o: Use
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -857,7 +857,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.i: Use
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -865,7 +865,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.s: Use
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.o
@@ -873,7 +873,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.o: Users/
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -881,7 +881,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.i: Users/
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -889,7 +889,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.s: Users/
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.o
@@ -897,7 +897,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.o: Users/
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -905,7 +905,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.i: Users/
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -913,7 +913,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.s: Users/
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -921,7 +921,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
@@ -929,7 +929,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
@@ -937,7 +937,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
@@ -945,7 +945,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o: U
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -953,7 +953,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -961,7 +961,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
@@ -969,7 +969,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/bo
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -977,7 +977,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/bo
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -985,7 +985,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/bo
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
@@ -993,7 +993,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clock
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -1001,7 +1001,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clock
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -1009,7 +1009,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clock
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
@@ -1017,7 +1017,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_divider/divi
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
@@ -1025,7 +1025,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -1033,7 +1033,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -1041,7 +1041,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
@@ -1049,7 +1049,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -1057,7 +1057,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -1065,7 +1065,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
@@ -1073,7 +1073,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: U
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -1081,7 +1081,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -1089,7 +1089,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
@@ -1097,7 +1097,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: U
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -1105,7 +1105,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -1113,7 +1113,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
@@ -1121,7 +1121,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq_hand
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
@@ -1129,7 +1129,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o: U
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
@@ -1137,7 +1137,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
@@ -1145,7 +1145,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
@@ -1153,7 +1153,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: U
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -1161,7 +1161,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -1169,7 +1169,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o
@@ -1177,7 +1177,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.o: U
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
@@ -1185,7 +1185,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
@@ -1193,7 +1193,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
@@ -1201,7 +1201,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -1209,7 +1209,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1217,7 +1217,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
@@ -1225,7 +1225,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lo
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -1233,7 +1233,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lo
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -1241,7 +1241,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lo
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
@@ -1249,7 +1249,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
@@ -1257,7 +1257,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
@@ -1265,7 +1265,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
@@ -1273,7 +1273,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1281,7 +1281,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1289,7 +1289,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
@@ -1297,7 +1297,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1305,7 +1305,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1313,7 +1313,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
@@ -1321,7 +1321,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1329,7 +1329,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1337,7 +1337,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
@@ -1345,7 +1345,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/wat
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1353,7 +1353,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/wat
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1361,7 +1361,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/wat
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
@@ -1369,7 +1369,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xi
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
@@ -1377,7 +1377,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xi
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
@@ -1385,7 +1385,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xi
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
@@ -1393,7 +1393,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1401,7 +1401,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1409,7 +1409,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
@@ -1417,7 +1417,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
@@ -1425,7 +1425,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
@@ -1433,7 +1433,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
@@ -1441,7 +1441,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
@@ -1449,7 +1449,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1457,7 +1457,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1465,7 +1465,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
@@ -1473,7 +1473,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -1481,7 +1481,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -1489,7 +1489,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
@@ -1497,7 +1497,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/n
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -1505,7 +1505,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/n
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -1513,7 +1513,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/n
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -1521,7 +1521,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Use
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
@@ -1529,7 +1529,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -1537,7 +1537,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -1545,7 +1545,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
@@ -1553,7 +1553,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_divider/divider_
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
@@ -1561,7 +1561,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_ae
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
@@ -1569,7 +1569,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_in
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
@@ -1577,7 +1577,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_in
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
@@ -1585,7 +1585,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_in
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
@@ -1593,7 +1593,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_ma
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1601,7 +1601,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_ma
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1609,7 +1609,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_ma
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
@@ -1617,7 +1617,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_v1
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
@@ -1625,7 +1625,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_d
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1633,7 +1633,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_d
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1641,7 +1641,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_d
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
@@ -1649,7 +1649,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.o: U
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
@@ -1657,7 +1657,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
@@ -1665,7 +1665,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
@@ -1673,7 +1673,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_aeab
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
@@ -1681,7 +1681,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
@@ -1689,7 +1689,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
@@ -1697,7 +1697,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
@@ -1705,7 +1705,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1713,7 +1713,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1721,7 +1721,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
@@ -1729,7 +1729,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_v1_r
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
@@ -1737,7 +1737,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_i
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
@@ -1745,7 +1745,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
@@ -1753,7 +1753,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
@@ -1761,7 +1761,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
@@ -1769,7 +1769,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
@@ -1777,7 +1777,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multic
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
@@ -1785,7 +1785,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multic
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
@@ -1793,7 +1793,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multic
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -1801,7 +1801,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/p
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
@@ -1809,7 +1809,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/p
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
@@ -1817,7 +1817,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/p
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
@@ -1825,7 +1825,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1833,7 +1833,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1841,7 +1841,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
@@ -1849,7 +1849,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1857,7 +1857,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1865,7 +1865,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
@@ -1873,7 +1873,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/run
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -1881,7 +1881,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/run
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -1889,7 +1889,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/run
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
@@ -1897,7 +1897,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/run
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -1905,7 +1905,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/run
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -1913,7 +1913,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/run
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
@@ -1921,7 +1921,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/run
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -1929,7 +1929,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/run
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -1937,7 +1937,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/run
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
@@ -1945,7 +1945,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -1953,7 +1953,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -1961,7 +1961,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
@@ -1969,7 +1969,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: U
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1977,7 +1977,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: U
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1985,7 +1985,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: U
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
@@ -1993,7 +1993,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -2001,7 +2001,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -2009,7 +2009,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
@@ -2017,7 +2017,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o:
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -2025,7 +2025,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i:
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -2033,7 +2033,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s:
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
@@ -2041,7 +2041,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique
 
 # target to build an object file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -2049,7 +2049,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique
 
 # target to preprocess a source file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -2057,7 +2057,7 @@ Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique
 
 # target to generate assembly for a file
 Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/PCOLLA/Documents/GitHub/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 main.o: main.c.o
@@ -2065,7 +2065,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -2073,7 +2073,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -2081,7 +2081,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/main.c.s
 .PHONY : main.c.s
 
 quad.o: quad.c.o
@@ -2089,7 +2089,7 @@ quad.o: quad.c.o
 
 # target to build an object file
 quad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/quad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/quad.c.o
 .PHONY : quad.c.o
 
 quad.i: quad.c.i
@@ -2097,7 +2097,7 @@ quad.i: quad.c.i
 
 # target to preprocess a source file
 quad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/quad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/quad.c.i
 .PHONY : quad.c.i
 
 quad.s: quad.c.s
@@ -2105,7 +2105,7 @@ quad.s: quad.c.s
 
 # target to generate assembly for a file
 quad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/quad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/quad.c.s
 .PHONY : quad.c.s
 
 usb_descriptors.o: usb_descriptors.c.o
@@ -2113,7 +2113,7 @@ usb_descriptors.o: usb_descriptors.c.o
 
 # target to build an object file
 usb_descriptors.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/usb_descriptors.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/usb_descriptors.c.o
 .PHONY : usb_descriptors.c.o
 
 usb_descriptors.i: usb_descriptors.c.i
@@ -2121,7 +2121,7 @@ usb_descriptors.i: usb_descriptors.c.i
 
 # target to preprocess a source file
 usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/usb_descriptors.c.i
 .PHONY : usb_descriptors.c.i
 
 usb_descriptors.s: usb_descriptors.c.s
@@ -2129,7 +2129,7 @@ usb_descriptors.s: usb_descriptors.c.s
 
 # target to generate assembly for a file
 usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quad_osc.dir/build.make CMakeFiles/quad_osc.dir/usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/softDDS.dir/build.make CMakeFiles/softDDS.dir/usb_descriptors.c.s
 .PHONY : usb_descriptors.c.s
 
 # Help Target
@@ -2143,11 +2143,11 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... pioasmBuild"
-	@echo "... quad_osc-jlink"
-	@echo "... quad_osc-openocd"
+	@echo "... softDDS-jlink"
+	@echo "... softDDS-openocd"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
-	@echo "... quad_osc"
+	@echo "... softDDS"
 	@echo "... Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.o"
 	@echo "... Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.i"
 	@echo "... Users/PCOLLA/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.s"
